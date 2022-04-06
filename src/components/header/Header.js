@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { useNavigate } from 'react-router-dom';
+import { Nav } from "../Nav/Nav";
 import {
   Row,
   rowFlex,
@@ -71,12 +72,7 @@ const StyledHeader = styled.header`
   }
 `;
 
-const Nav = styled.nav`
-  display: flex;
-  justify-content: space-between;
-  gap: 3rem;
-  margin-bottom: 3rem;
-`;
+
 
 export default function Header() {
   const navigate = useNavigate();

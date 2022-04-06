@@ -33,7 +33,7 @@ const Form = styled.form`
 `
 
 export const FormComponent = ({head}) =>{
-    console.log(this.head)
+  
     return(
         <Form>
                 <h1 className='form-heading'>
