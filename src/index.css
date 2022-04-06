@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* transform: all 2s ease; */
+}
+@font-face {
+  font-family: 'chalkboard-se';
+  src: url(/copyfonts.com_chalkboard-se-regular.ttf) format("truetype");
+}
+
+html{
+  font-size: 62.3%;
+}
+
+@media screen and (max-width:700px){
+  html{
+    font-size: 58.2%;
+  }
+  body{
+    min-width: 100%;
+    
+  }
+
+  #breack-point{
+    flex-direction: column;
+    gap: 5rem;
+  }
+  p{
+    text-align: center;
+  }
+}
+body{
+  font-size: 1.5rem;
+  font-family: chalkboard-se, Arial, Helvetica, sans-serif;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  max-width: max-content;
+  min-width: fit-content;
+  overflow-x: hidden;
+}
+
+.contact-us-icon{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+
